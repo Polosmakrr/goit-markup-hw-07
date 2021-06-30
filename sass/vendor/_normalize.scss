@@ -271,3 +271,29 @@ Add the correct display in Chrome and Safari.
 summary {
   display: list-item;
 }
+
+/* 
+Remove standart link style
+*/
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 
+Remove list point
+*/
+
+ul {
+  list-style: none;
+}
+
+/* 
+standart parameterd IMG
+*/
+
+img {
+  display: block;
+  max-width: 100%;
+}

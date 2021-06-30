@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
@@ -53,8 +53,8 @@
 
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса </h1>
-                <button class="hero__buttons buttons order" type="button" data-modal-open>Заказать услугу</button>
+                <h1 class="hero__title">Эффективные решения <br>для вашего бизнеса </h1>
+                <button class="hero__buttons buttons btn" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
@@ -342,7 +342,7 @@
     <div class="backdrop is-hidden" data-modal>
 
         <div class="modal">
-            <button class="modal__close" data-modal-close>
+            <button class="modal__close btn" data-modal-close>
                 <svg class="modal_close-element">
                     <use href="./img/svg/sprite.svg#icon-close-black"></use>
                 </svg>
@@ -387,7 +387,7 @@
                         договора</a>
                 </label>
 
-                <button class="form__button" type="submit">Отправить</button>
+                <button class="form__button btn" type="submit">Отправить</button>
             </form>
 
         </div>
@@ -418,7 +418,7 @@
                 </address>
             </div>
             <div class="footer-social-links">
-                <h3>присоединяйтесь</h3>
+                <h3 class="footer__subtitle">присоединяйтесь</h3>
                 <ul class="footer__icon-list list">
                     <li>
                         <a class="footer__link" href="#">
@@ -459,7 +459,7 @@
                     <label class="footer__label" for="mail">Подпишитесь на рассылку</label>
                     <input class="footer__input type=" email" id="mail-sign" placeholder="E-mail" />
                 </div>
-                <button class="footer__button sign" type="submit">Подписаться
+                <button class="footer__button sign btn" type="submit">Подписаться
                     <svg class="icon-send">
                         <use href="./img/svg/sprite.svg#icon-icon-send"></use>
                     </svg>
